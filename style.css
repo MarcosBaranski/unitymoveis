@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(197, 155, 15);
+    background-color: rgb(253, 244, 244);
     display: table;
     width: 100%;
 }
@@ -11,12 +11,12 @@ header{
 
 .logo-site img{
     float:left;
-    max-width: 100px;
+    max-width: 300px;
 }
 
 .logo-site h1{
     display: inline-block;
-    margin: 50px 0 0 20px;
+    margin: 120px 0 0 20px;
 }
 
 .logo-site h1 a{
@@ -45,10 +45,14 @@ nav a {
 }
 
 nav a:hover {
-	color: #ff0000;
+	color: #001aff;
 }
 
 
 h1{
-font-family:sans-serif
+font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: silver;
 }
