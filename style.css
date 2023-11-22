@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(197, 155, 15);
+    background-color: rgb(253, 244, 244);
     display: table;
     width: 100%;
 }
@@ -11,12 +11,12 @@ header{
 
 .logo-site img{
     float:left;
-    max-width: 100px;
+    max-width: 300px;
 }
 
 .logo-site h1{
     display: inline-block;
-    margin: 50px 0 0 20px;
+    margin: 120px 0 0 20px;
 }
 
 .logo-site h1 a{
@@ -45,10 +45,70 @@ nav a {
 }
 
 nav a:hover {
-	color: #ff0000;
+	color: #001aff;
 }
 
 
 h1{
-font-family:sans-serif
+font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: grey
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 10px
+}
+.produtos li:hover{
+    border-color: white;
+    animation-name: vaca;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px rgba(207, 181, 59, alpha);
+}
+
+@keyframes vaca{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+
+.produtos li:active{
+    border-color: goldenrod;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produtos h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
